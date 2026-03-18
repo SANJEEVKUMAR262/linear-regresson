@@ -28,10 +28,10 @@ class LinearRegression:
 X = np.array([[1], [2], [3], [4], [5]])
 y = np.array([2, 4, 6, 8, 10])
 
-# Create model
+# Create modelreqfgsgqwer3w
 model = LinearRegression(lr=0.01, n_iters=10000)
 
-# Train model
+# Train modelefwegwger
 model.fit(X, y)
 
 # Predictions
