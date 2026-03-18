@@ -19,7 +19,7 @@ NumPy
 Matplotlib
 
 ▶️ Run
-git clone https://github.com/SANJEEVKUMAR@^@/linear-regression.git
+git clone https://github.com/SANJEEVKUMAR/linear-regression.git
 cd linear-regression
 pip install -r requirements.txt
 python train.py
