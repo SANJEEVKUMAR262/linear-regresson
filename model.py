@@ -24,3 +24,20 @@ class LinearRegression:
 
     def predict(self, X):
         return np.dot(X, self.weights) + self.bias
+# Sample dataset
+X = np.array([[1], [2], [3], [4], [5]])
+y = np.array([2, 4, 6, 8, 10])
+
+# Create model
+model = LinearRegression(lr=0.01, n_iters=1000)
+
+# Train model
+model.fit(X, y)
+
+# Predictions
+predictions = model.predict(X)
+
+# Output
+print("Weights:", model.weights)
+print("Bias:", model.bias)
+print("Predictions:", predictions)
